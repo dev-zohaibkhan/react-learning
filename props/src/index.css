@@ -55,7 +55,7 @@ body {
 }
 
 #root {
-  width: 1126px;
+  /* width: 1126px; */
   max-width: 100%;
   margin: 0 auto;
   text-align: center;
@@ -120,6 +120,7 @@ code {
   padding: 20px 10px;
   border: 1px solid red;
   border-radius: 10px;
+  object-fit: cover;
 }
 .card img{
   width: 150px;
