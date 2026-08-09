@@ -3,7 +3,7 @@ import './ProductDesign.css'
 
 const ProductDesign = (props) => {
   return (
-    <div className="product">
+    <div className="product" >
       <div className="img">
         <img src={props.productLogo} alt="" />
       </div>

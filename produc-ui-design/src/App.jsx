@@ -69,13 +69,17 @@ const App = () => {
 
   return (
     <div className="container">
-      {products.map((product, index) =>{
-        return <div key={index}>
-          <ProductDesign productLogo = {product.productLogo} productName = {product.name} productType = {product.type} productPrice = {product.price} />
-        </div>
+      {products.map((product, index) => {
+        return <dev key={index}>
+          <ProductDesign productLogo = {product.productLogo} productName = {product.name} productType = {product.type} productPrice = {product.price}  />
+        </dev>
       })}      
+      
     </div>
+    
   )
+  
+  
 }
 
 export default App
